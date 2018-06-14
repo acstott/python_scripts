@@ -5,27 +5,16 @@ import math
 import random
 
 """
-This is a pure Python implementation of the K-Means Clustering algorithmn. The
-original can be found here:
-http://pandoricweb.tumblr.com/post/8646701677/python-implementation-of-the-k-means-clustering
-
-I have refactored the code and added comments to aid in readability.
-After reading through this code you should understand clearly how K-means works.
-If not, feel free to email me with questions and suggestions. (iandanforth at
-gmail)
-
-This script specifically avoids using numpy or other more obscure libraries. It
-is meant to be *clear* not fast.
-
-I have also added integration with the plot.ly plotting library. So you can see
-the clusters found by this algorithm. To install run:
+Implementation of the K-Means Clustering algorithm
 
 ```
 pip install plotly
+
 ```
 
 This script uses an offline plotting mode and will store and open plots locally.
 To store and share plots online sign up for a plotly API key at https://plot.ly.
+
 """
 
 plotly = False
